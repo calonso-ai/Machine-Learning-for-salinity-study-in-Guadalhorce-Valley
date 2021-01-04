@@ -28,4 +28,4 @@ Una vez se completa la fase de preprocesado, se aplican los métodos; Arboles de
 
 Para finalizar, se realizan varias predicciones de la variable Salinidad_mezcla con conjuntos nuevos de datos, para ver como varían distintas variables de interés.
 
-(Nota de ejecución: En el apartado 5.)
+(Nota de ejecución: El apartado 6.4.2 se útiliza únicamente para ver la distribución de la variable Salinidad_mezcla tras los distintos métodos de imputación. Para ver la distribución de la variable con cada método de imputación se debe ejecutar cada celda asociada a un método de imputación una vez se cree la variable df_data, no esperar al final de la ejecución del script)
