@@ -14,4 +14,18 @@ Relacionar la salinidad de la presa Guadalhorce la salinidad que se obtiene de l
 
 Se tomarán los datos proporcionados por la Junta de Andalucía, que recogen diferente información acerca de las presas, se preprocesarán, se analizarán y se visualizarán para extraer un análisis pormenirizado.
 
+Una vez se han consolidado los 8 ficheros csv que pueden encontrarse en la carpeta dataset, que un dataframe con 2894 registros y 73 variables. Entre estas 73 variables se encuentra la variable etiquetada, que será Salinidad_mezcla, que toma los valores:
 
+  •	Mezcla de aguas no salina: 0 ≤  Salinidad_mezcla ≤ 900 --> Salinidad_mezcla = 0 
+
+  •	Mezcla de aguas salina: Salinidad_mezcla > 900 --> Salinidad_mezcla = 1 
+
+Esta variable contiene un gran número de missing values por lo que se estudiarán distintas metodologías de imputación. 
+
+(Nota de ejecución: Para cada ejecución completa del script utilizar únicamente un método de imputación y el resto de métodos dejarlos comentados)
+
+Una vez se completa la fase de preprocesado, se aplican los métodos; Arboles de decisión, Random Forest, SVM, AdaBoost y ANN para hallar un clasificador o predictor óptimo de la variable Salinidad_mezcla.
+
+Para finalizar, se realizan varias predicciones de la variable Salinidad_mezcla con conjuntos nuevos de datos, para ver como varían distintas variables de interés.
+
+(Nota de ejecución: En el apartado 5.)
