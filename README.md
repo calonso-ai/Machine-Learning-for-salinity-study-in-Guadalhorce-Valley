@@ -14,3 +14,4 @@ Relacionar la salinidad de la presa Guadalhorce la salinidad que se obtiene de l
 
 Se tomarán los datos proporcionados por la Junta de Andalucía, que recogen diferente información acerca de las presas, se preprocesarán, se analizarán y se visualizarán para extraer un análisis pormenirizado.
 
+
